@@ -5,10 +5,6 @@ set(CMAKE_C_STANDARD 99)
 
 set(GCC "-std=c99 -Wall -pedantic-errors -Werror ")
 add_definitions(${GCC})
-set(MAIN ..)
-set(HEADERS ${MAIN}/Headers)
-set(SOURCES ${MAIN}/Sources)
-set(TESTS ${MAIN}/Tests)
 
 
 add_executable(ex2_test Tests/test1.c
